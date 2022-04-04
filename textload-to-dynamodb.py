@@ -1,3 +1,5 @@
+# This script loads text lines from a text file into dynamodb table.  Important to separate the script into
+# Create the table first, then run remainder of script if it errors.
 import boto3
 from decouple import config
 
